@@ -8,9 +8,17 @@ export default {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        '70': '70px',
+        '50': '50px',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        pink: "#F8DEDE",
+        cream:"#ef3167",
+        creammuda:"#FFCBCB",
+        hijau:"#50ff3a",
       },
     },
   },
